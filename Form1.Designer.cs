@@ -35,6 +35,7 @@ namespace Administracion_pizzeria
             // 
             // menulateral
             // 
+            this.menulateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.menulateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.menulateral.Location = new System.Drawing.Point(0, 0);
             this.menulateral.Name = "menulateral";
@@ -43,17 +44,18 @@ namespace Administracion_pizzeria
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(250, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(550, 100);
+            this.panel1.Size = new System.Drawing.Size(423, 80);
             this.panel1.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(673, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menulateral);
             this.Name = "Form1";
