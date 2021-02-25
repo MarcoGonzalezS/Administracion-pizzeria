@@ -29,13 +29,32 @@ namespace Administracion_pizzeria
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.menulateral = new System.Windows.Forms.Panel();
+            this.SuspendLayout();
+            // 
+            // menulateral
+            // 
+            this.menulateral.Dock = System.Windows.Forms.DockStyle.Left;
+            this.menulateral.Location = new System.Drawing.Point(0, 0);
+            this.menulateral.Name = "menulateral";
+            this.menulateral.Size = new System.Drawing.Size(250, 450);
+            this.menulateral.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.menulateral);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel menulateral;
     }
 }
 
