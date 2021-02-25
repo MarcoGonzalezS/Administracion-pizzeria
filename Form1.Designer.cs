@@ -30,45 +30,61 @@ namespace Administracion_pizzeria
         private void InitializeComponent()
         {
             this.menulateral = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.menulateral.SuspendLayout();
             this.SuspendLayout();
             // 
             // menulateral
             // 
             this.menulateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
+            this.menulateral.Controls.Add(this.button1);
             this.menulateral.Controls.Add(this.panel2);
             this.menulateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.menulateral.Location = new System.Drawing.Point(0, 0);
+            this.menulateral.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.menulateral.Name = "menulateral";
-            this.menulateral.Size = new System.Drawing.Size(250, 450);
+            this.menulateral.Size = new System.Drawing.Size(333, 554);
             this.menulateral.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(250, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(423, 80);
-            this.panel1.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(250, 80);
+            this.panel2.Size = new System.Drawing.Size(333, 98);
             this.panel2.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(333, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(564, 98);
+            this.panel1.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.Location = new System.Drawing.Point(0, 98);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(333, 45);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 450);
+            this.ClientSize = new System.Drawing.Size(897, 554);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menulateral);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.menulateral.ResumeLayout(false);
@@ -81,6 +97,7 @@ namespace Administracion_pizzeria
         private System.Windows.Forms.Panel menulateral;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
