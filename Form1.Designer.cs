@@ -31,11 +31,14 @@ namespace Administracion_pizzeria
         {
             this.menulateral = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.menulateral.SuspendLayout();
             this.SuspendLayout();
             // 
             // menulateral
             // 
             this.menulateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
+            this.menulateral.Controls.Add(this.panel2);
             this.menulateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.menulateral.Location = new System.Drawing.Point(0, 0);
             this.menulateral.Name = "menulateral";
@@ -51,6 +54,14 @@ namespace Administracion_pizzeria
             this.panel1.Size = new System.Drawing.Size(423, 80);
             this.panel1.TabIndex = 1;
             // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(250, 80);
+            this.panel2.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -60,6 +71,7 @@ namespace Administracion_pizzeria
             this.Controls.Add(this.menulateral);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.menulateral.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -68,6 +80,7 @@ namespace Administracion_pizzeria
 
         private System.Windows.Forms.Panel menulateral;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
