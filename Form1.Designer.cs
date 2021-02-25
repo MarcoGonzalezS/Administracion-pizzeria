@@ -30,6 +30,7 @@ namespace Administracion_pizzeria
         private void InitializeComponent()
         {
             this.menulateral = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // menulateral
@@ -40,11 +41,20 @@ namespace Administracion_pizzeria
             this.menulateral.Size = new System.Drawing.Size(250, 450);
             this.menulateral.TabIndex = 0;
             // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(250, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(550, 100);
+            this.panel1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.menulateral);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -55,6 +65,7 @@ namespace Administracion_pizzeria
         #endregion
 
         private System.Windows.Forms.Panel menulateral;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
