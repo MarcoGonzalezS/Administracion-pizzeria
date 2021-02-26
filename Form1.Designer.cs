@@ -1,4 +1,4 @@
-﻿
+
 namespace Administracion_pizzeria
 {
     partial class Form1
@@ -856,7 +856,7 @@ namespace Administracion_pizzeria
             this.bt_analisis.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_analisis.UseVisualStyleBackColor = false;
             // 
-            // separador
+            // button6
             // 
             this.separador.Dock = System.Windows.Forms.DockStyle.Top;
             this.separador.Location = new System.Drawing.Point(0, 0);
@@ -865,7 +865,7 @@ namespace Administracion_pizzeria
             this.separador.Size = new System.Drawing.Size(250, 80);
             this.separador.TabIndex = 0;
             // 
-            // menusuperior
+            // bt_contabilidad
             // 
             this.menusuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.menusuperior.Dock = System.Windows.Forms.DockStyle.Top;
@@ -877,7 +877,7 @@ namespace Administracion_pizzeria
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1036, 744);
             this.Controls.Add(this.menusuperior);
