@@ -16,5 +16,10 @@ namespace Administracion_pizzeria
         {
             InitializeComponent();
         }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
