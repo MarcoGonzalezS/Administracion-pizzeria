@@ -103,7 +103,7 @@ namespace Administracion_pizzeria
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(164)))), ((int)(((byte)(66)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -135,7 +135,7 @@ namespace Administracion_pizzeria
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(164)))), ((int)(((byte)(66)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 80);
             this.panel3.Name = "panel3";
@@ -144,7 +144,7 @@ namespace Administracion_pizzeria
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(164)))), ((int)(((byte)(66)))));
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel4.Location = new System.Drawing.Point(648, 80);
             this.panel4.Name = "panel4";
@@ -153,7 +153,7 @@ namespace Administracion_pizzeria
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(167)))), ((int)(((byte)(154)))));
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(164)))), ((int)(((byte)(66)))));
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -489,6 +489,8 @@ namespace Administracion_pizzeria
             // 
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(3, 255);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(146, 31);
@@ -499,6 +501,8 @@ namespace Administracion_pizzeria
             // 
             this.label59.AutoSize = true;
             this.label59.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label59.ForeColor = System.Drawing.Color.Black;
             this.label59.Location = new System.Drawing.Point(307, 238);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(146, 17);
@@ -509,6 +513,8 @@ namespace Administracion_pizzeria
             // 
             this.label57.AutoSize = true;
             this.label57.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label57.ForeColor = System.Drawing.Color.Black;
             this.label57.Location = new System.Drawing.Point(3, 238);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(146, 17);
@@ -519,6 +525,8 @@ namespace Administracion_pizzeria
             // 
             this.label55.AutoSize = true;
             this.label55.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label55.ForeColor = System.Drawing.Color.Black;
             this.label55.Location = new System.Drawing.Point(307, 221);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(146, 17);
@@ -529,6 +537,8 @@ namespace Administracion_pizzeria
             // 
             this.label53.AutoSize = true;
             this.label53.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label53.ForeColor = System.Drawing.Color.Black;
             this.label53.Location = new System.Drawing.Point(3, 221);
             this.label53.Name = "label53";
             this.label53.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -540,6 +550,8 @@ namespace Administracion_pizzeria
             // 
             this.label51.AutoSize = true;
             this.label51.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label51.ForeColor = System.Drawing.Color.Black;
             this.label51.Location = new System.Drawing.Point(307, 204);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(146, 17);
@@ -550,6 +562,8 @@ namespace Administracion_pizzeria
             // 
             this.label49.AutoSize = true;
             this.label49.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label49.ForeColor = System.Drawing.Color.Black;
             this.label49.Location = new System.Drawing.Point(3, 204);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(146, 17);
@@ -560,6 +574,8 @@ namespace Administracion_pizzeria
             // 
             this.label47.AutoSize = true;
             this.label47.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label47.ForeColor = System.Drawing.Color.Black;
             this.label47.Location = new System.Drawing.Point(307, 187);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(146, 17);
@@ -570,6 +586,8 @@ namespace Administracion_pizzeria
             // 
             this.label45.AutoSize = true;
             this.label45.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label45.ForeColor = System.Drawing.Color.Black;
             this.label45.Location = new System.Drawing.Point(3, 187);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(146, 17);
@@ -580,6 +598,8 @@ namespace Administracion_pizzeria
             // 
             this.label43.AutoSize = true;
             this.label43.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label43.ForeColor = System.Drawing.Color.Black;
             this.label43.Location = new System.Drawing.Point(307, 170);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(146, 17);
@@ -590,6 +610,8 @@ namespace Administracion_pizzeria
             // 
             this.label41.AutoSize = true;
             this.label41.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label41.ForeColor = System.Drawing.Color.Black;
             this.label41.Location = new System.Drawing.Point(3, 170);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(146, 17);
@@ -600,6 +622,8 @@ namespace Administracion_pizzeria
             // 
             this.label39.AutoSize = true;
             this.label39.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label39.ForeColor = System.Drawing.Color.Black;
             this.label39.Location = new System.Drawing.Point(307, 153);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(146, 17);
@@ -610,6 +634,8 @@ namespace Administracion_pizzeria
             // 
             this.label37.AutoSize = true;
             this.label37.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label37.ForeColor = System.Drawing.Color.Black;
             this.label37.Location = new System.Drawing.Point(3, 153);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(146, 17);
@@ -620,6 +646,8 @@ namespace Administracion_pizzeria
             // 
             this.label35.AutoSize = true;
             this.label35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label35.ForeColor = System.Drawing.Color.Black;
             this.label35.Location = new System.Drawing.Point(307, 136);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(146, 17);
@@ -630,6 +658,8 @@ namespace Administracion_pizzeria
             // 
             this.label33.AutoSize = true;
             this.label33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label33.ForeColor = System.Drawing.Color.Black;
             this.label33.Location = new System.Drawing.Point(3, 136);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(146, 17);
@@ -640,6 +670,8 @@ namespace Administracion_pizzeria
             // 
             this.label31.AutoSize = true;
             this.label31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label31.ForeColor = System.Drawing.Color.Black;
             this.label31.Location = new System.Drawing.Point(307, 119);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(146, 17);
@@ -650,6 +682,8 @@ namespace Administracion_pizzeria
             // 
             this.label29.AutoSize = true;
             this.label29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label29.ForeColor = System.Drawing.Color.Black;
             this.label29.Location = new System.Drawing.Point(3, 119);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(146, 17);
@@ -660,6 +694,8 @@ namespace Administracion_pizzeria
             // 
             this.label27.AutoSize = true;
             this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label27.ForeColor = System.Drawing.Color.Black;
             this.label27.Location = new System.Drawing.Point(307, 102);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(146, 17);
@@ -670,6 +706,8 @@ namespace Administracion_pizzeria
             // 
             this.label25.AutoSize = true;
             this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label25.ForeColor = System.Drawing.Color.Black;
             this.label25.Location = new System.Drawing.Point(3, 102);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(146, 17);
@@ -680,6 +718,8 @@ namespace Administracion_pizzeria
             // 
             this.label23.AutoSize = true;
             this.label23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label23.ForeColor = System.Drawing.Color.Black;
             this.label23.Location = new System.Drawing.Point(307, 85);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(146, 17);
@@ -690,6 +730,8 @@ namespace Administracion_pizzeria
             // 
             this.label21.AutoSize = true;
             this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label21.ForeColor = System.Drawing.Color.Black;
             this.label21.Location = new System.Drawing.Point(3, 85);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(146, 17);
@@ -700,6 +742,8 @@ namespace Administracion_pizzeria
             // 
             this.label19.AutoSize = true;
             this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label19.ForeColor = System.Drawing.Color.Black;
             this.label19.Location = new System.Drawing.Point(307, 68);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(146, 17);
@@ -710,6 +754,8 @@ namespace Administracion_pizzeria
             // 
             this.label17.AutoSize = true;
             this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label17.ForeColor = System.Drawing.Color.Black;
             this.label17.Location = new System.Drawing.Point(3, 68);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(146, 17);
@@ -720,6 +766,8 @@ namespace Administracion_pizzeria
             // 
             this.label15.AutoSize = true;
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label15.ForeColor = System.Drawing.Color.Black;
             this.label15.Location = new System.Drawing.Point(307, 51);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(146, 17);
@@ -730,6 +778,8 @@ namespace Administracion_pizzeria
             // 
             this.label13.AutoSize = true;
             this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label13.ForeColor = System.Drawing.Color.Black;
             this.label13.Location = new System.Drawing.Point(3, 51);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(146, 17);
@@ -740,6 +790,8 @@ namespace Administracion_pizzeria
             // 
             this.label11.AutoSize = true;
             this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label11.ForeColor = System.Drawing.Color.Black;
             this.label11.Location = new System.Drawing.Point(307, 34);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(146, 17);
@@ -750,6 +802,8 @@ namespace Administracion_pizzeria
             // 
             this.label9.AutoSize = true;
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(3, 34);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(146, 17);
@@ -760,6 +814,8 @@ namespace Administracion_pizzeria
             // 
             this.label7.AutoSize = true;
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(307, 17);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(146, 17);
@@ -770,6 +826,8 @@ namespace Administracion_pizzeria
             // 
             this.label5.AutoSize = true;
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(3, 17);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(146, 17);
@@ -780,6 +838,8 @@ namespace Administracion_pizzeria
             // 
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(307, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(146, 17);
@@ -790,6 +850,8 @@ namespace Administracion_pizzeria
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(146, 17);
