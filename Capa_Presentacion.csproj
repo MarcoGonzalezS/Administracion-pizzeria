@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario_ingresarusuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_ingresarusuario.Designer.cs">
+      <DependentUpon>Formulario_ingresarusuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario_ingresarpresupuesto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_ingresarpresupuesto.resx">
       <DependentUpon>Formulario_ingresarpresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_ingresarusuario.resx">
+      <DependentUpon>Formulario_ingresarusuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formulario_login.resx">
       <DependentUpon>formulario_login.cs</DependentUpon>
@@ -96,6 +105,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa_Logica\Capa_Logica.csproj">
+      <Project>{d06a3642-a9ba-4dde-9024-11e0fe320609}</Project>
+      <Name>Capa_Logica</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
