@@ -79,7 +79,6 @@ namespace Administracion_pizzeria
             this.bt_informeventas = new System.Windows.Forms.Button();
             this.bt_analisis = new System.Windows.Forms.Button();
             this.separador = new System.Windows.Forms.Panel();
-            this.menusuperior = new System.Windows.Forms.Panel();
             this.menulateral.SuspendLayout();
             this.smenu_utilidades.SuspendLayout();
             this.smenu_personal.SuspendLayout();
@@ -104,7 +103,7 @@ namespace Administracion_pizzeria
             this.menulateral.Controls.Add(this.separador);
             this.menulateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.menulateral.Location = new System.Drawing.Point(0, 0);
-            this.menulateral.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menulateral.Margin = new System.Windows.Forms.Padding(4);
             this.menulateral.Name = "menulateral";
             this.menulateral.Size = new System.Drawing.Size(250, 744);
             this.menulateral.TabIndex = 0;
@@ -130,7 +129,7 @@ namespace Administracion_pizzeria
             this.bt_salir.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_salir.FlatAppearance.BorderSize = 0;
             this.bt_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_salir.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_salir.Location = new System.Drawing.Point(0, 280);
             this.bt_salir.Name = "bt_salir";
             this.bt_salir.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -145,7 +144,7 @@ namespace Administracion_pizzeria
             this.bt_visualizarusuarios.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_visualizarusuarios.FlatAppearance.BorderSize = 0;
             this.bt_visualizarusuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_visualizarusuarios.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_visualizarusuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_visualizarusuarios.Location = new System.Drawing.Point(0, 240);
             this.bt_visualizarusuarios.Name = "bt_visualizarusuarios";
             this.bt_visualizarusuarios.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -160,7 +159,7 @@ namespace Administracion_pizzeria
             this.bt_modificarusuarios.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_modificarusuarios.FlatAppearance.BorderSize = 0;
             this.bt_modificarusuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_modificarusuarios.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_modificarusuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_modificarusuarios.Location = new System.Drawing.Point(0, 200);
             this.bt_modificarusuarios.Name = "bt_modificarusuarios";
             this.bt_modificarusuarios.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -175,7 +174,7 @@ namespace Administracion_pizzeria
             this.bt_crearusuario.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_crearusuario.FlatAppearance.BorderSize = 0;
             this.bt_crearusuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_crearusuario.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_crearusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_crearusuario.Location = new System.Drawing.Point(0, 160);
             this.bt_crearusuario.Name = "bt_crearusuario";
             this.bt_crearusuario.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -190,7 +189,7 @@ namespace Administracion_pizzeria
             this.bt_definirentrega.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_definirentrega.FlatAppearance.BorderSize = 0;
             this.bt_definirentrega.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_definirentrega.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_definirentrega.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_definirentrega.Location = new System.Drawing.Point(0, 120);
             this.bt_definirentrega.Name = "bt_definirentrega";
             this.bt_definirentrega.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -205,7 +204,7 @@ namespace Administracion_pizzeria
             this.bt_cambiarusuario.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_cambiarusuario.FlatAppearance.BorderSize = 0;
             this.bt_cambiarusuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cambiarusuario.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_cambiarusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_cambiarusuario.Location = new System.Drawing.Point(0, 80);
             this.bt_cambiarusuario.Name = "bt_cambiarusuario";
             this.bt_cambiarusuario.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -220,7 +219,7 @@ namespace Administracion_pizzeria
             this.bt_cierrecaja.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_cierrecaja.FlatAppearance.BorderSize = 0;
             this.bt_cierrecaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cierrecaja.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_cierrecaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_cierrecaja.Location = new System.Drawing.Point(0, 40);
             this.bt_cierrecaja.Name = "bt_cierrecaja";
             this.bt_cierrecaja.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -235,7 +234,7 @@ namespace Administracion_pizzeria
             this.bt_aperturacajas.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_aperturacajas.FlatAppearance.BorderSize = 0;
             this.bt_aperturacajas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_aperturacajas.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_aperturacajas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_aperturacajas.Location = new System.Drawing.Point(0, 0);
             this.bt_aperturacajas.Name = "bt_aperturacajas";
             this.bt_aperturacajas.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -247,11 +246,11 @@ namespace Administracion_pizzeria
             // 
             // bt_utilidades
             // 
-            this.bt_utilidades.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(37)))), ((int)(((byte)(33)))));
+            this.bt_utilidades.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.bt_utilidades.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_utilidades.FlatAppearance.BorderSize = 0;
             this.bt_utilidades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_utilidades.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_utilidades.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_utilidades.Location = new System.Drawing.Point(0, 260);
             this.bt_utilidades.Name = "bt_utilidades";
             this.bt_utilidades.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -271,7 +270,7 @@ namespace Administracion_pizzeria
             this.smenu_personal.Controls.Add(this.bt_ingresarnuevo);
             this.smenu_personal.Controls.Add(this.bt_buscarpersonal);
             this.smenu_personal.Dock = System.Windows.Forms.DockStyle.Top;
-            this.smenu_personal.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.smenu_personal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.smenu_personal.Location = new System.Drawing.Point(0, 260);
             this.smenu_personal.Name = "smenu_personal";
             this.smenu_personal.Size = new System.Drawing.Size(250, 0);
@@ -282,7 +281,7 @@ namespace Administracion_pizzeria
             this.bt_informepersonal.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_informepersonal.FlatAppearance.BorderSize = 0;
             this.bt_informepersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_informepersonal.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_informepersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_informepersonal.Location = new System.Drawing.Point(0, 240);
             this.bt_informepersonal.Name = "bt_informepersonal";
             this.bt_informepersonal.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -297,7 +296,7 @@ namespace Administracion_pizzeria
             this.bt_dardebaja.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_dardebaja.FlatAppearance.BorderSize = 0;
             this.bt_dardebaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_dardebaja.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_dardebaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_dardebaja.Location = new System.Drawing.Point(0, 200);
             this.bt_dardebaja.Name = "bt_dardebaja";
             this.bt_dardebaja.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -312,7 +311,7 @@ namespace Administracion_pizzeria
             this.bt_modificarsueldos.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_modificarsueldos.FlatAppearance.BorderSize = 0;
             this.bt_modificarsueldos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_modificarsueldos.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_modificarsueldos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_modificarsueldos.Location = new System.Drawing.Point(0, 160);
             this.bt_modificarsueldos.Name = "bt_modificarsueldos";
             this.bt_modificarsueldos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -327,7 +326,7 @@ namespace Administracion_pizzeria
             this.bt_buscarliquidacion.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_buscarliquidacion.FlatAppearance.BorderSize = 0;
             this.bt_buscarliquidacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_buscarliquidacion.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_buscarliquidacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_buscarliquidacion.Location = new System.Drawing.Point(0, 120);
             this.bt_buscarliquidacion.Name = "bt_buscarliquidacion";
             this.bt_buscarliquidacion.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -342,7 +341,7 @@ namespace Administracion_pizzeria
             this.bt_crearliquidacion.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_crearliquidacion.FlatAppearance.BorderSize = 0;
             this.bt_crearliquidacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_crearliquidacion.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_crearliquidacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_crearliquidacion.Location = new System.Drawing.Point(0, 80);
             this.bt_crearliquidacion.Name = "bt_crearliquidacion";
             this.bt_crearliquidacion.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -357,7 +356,7 @@ namespace Administracion_pizzeria
             this.bt_ingresarnuevo.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_ingresarnuevo.FlatAppearance.BorderSize = 0;
             this.bt_ingresarnuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_ingresarnuevo.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_ingresarnuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_ingresarnuevo.Location = new System.Drawing.Point(0, 40);
             this.bt_ingresarnuevo.Name = "bt_ingresarnuevo";
             this.bt_ingresarnuevo.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -372,7 +371,7 @@ namespace Administracion_pizzeria
             this.bt_buscarpersonal.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_buscarpersonal.FlatAppearance.BorderSize = 0;
             this.bt_buscarpersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_buscarpersonal.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_buscarpersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_buscarpersonal.Location = new System.Drawing.Point(0, 0);
             this.bt_buscarpersonal.Name = "bt_buscarpersonal";
             this.bt_buscarpersonal.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -384,9 +383,11 @@ namespace Administracion_pizzeria
             // 
             // bt_personal
             // 
-            this.bt_personal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(37)))), ((int)(((byte)(33)))));
+            this.bt_personal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.bt_personal.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_personal.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_personal.FlatAppearance.BorderSize = 0;
+            this.bt_personal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_personal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_personal.Location = new System.Drawing.Point(0, 215);
             this.bt_personal.Name = "bt_personal";
             this.bt_personal.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -421,7 +422,7 @@ namespace Administracion_pizzeria
             this.bt_buscarpedido.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_buscarpedido.FlatAppearance.BorderSize = 0;
             this.bt_buscarpedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_buscarpedido.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_buscarpedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_buscarpedido.Location = new System.Drawing.Point(0, 440);
             this.bt_buscarpedido.Name = "bt_buscarpedido";
             this.bt_buscarpedido.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -436,7 +437,7 @@ namespace Administracion_pizzeria
             this.bt_nuevopedido.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_nuevopedido.FlatAppearance.BorderSize = 0;
             this.bt_nuevopedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_nuevopedido.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_nuevopedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_nuevopedido.Location = new System.Drawing.Point(0, 400);
             this.bt_nuevopedido.Name = "bt_nuevopedido";
             this.bt_nuevopedido.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -451,7 +452,7 @@ namespace Administracion_pizzeria
             this.bt_eliminarinsumo.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_eliminarinsumo.FlatAppearance.BorderSize = 0;
             this.bt_eliminarinsumo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_eliminarinsumo.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_eliminarinsumo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_eliminarinsumo.Location = new System.Drawing.Point(0, 360);
             this.bt_eliminarinsumo.Name = "bt_eliminarinsumo";
             this.bt_eliminarinsumo.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -466,7 +467,7 @@ namespace Administracion_pizzeria
             this.bt_buscarsalida.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_buscarsalida.FlatAppearance.BorderSize = 0;
             this.bt_buscarsalida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_buscarsalida.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_buscarsalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_buscarsalida.Location = new System.Drawing.Point(0, 320);
             this.bt_buscarsalida.Name = "bt_buscarsalida";
             this.bt_buscarsalida.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -481,7 +482,7 @@ namespace Administracion_pizzeria
             this.bt_ingresarsalida.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_ingresarsalida.FlatAppearance.BorderSize = 0;
             this.bt_ingresarsalida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_ingresarsalida.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_ingresarsalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_ingresarsalida.Location = new System.Drawing.Point(0, 280);
             this.bt_ingresarsalida.Name = "bt_ingresarsalida";
             this.bt_ingresarsalida.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -497,7 +498,7 @@ namespace Administracion_pizzeria
             this.bt_ingresarnuevoinsumo.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_ingresarnuevoinsumo.FlatAppearance.BorderSize = 0;
             this.bt_ingresarnuevoinsumo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_ingresarnuevoinsumo.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_ingresarnuevoinsumo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_ingresarnuevoinsumo.Location = new System.Drawing.Point(0, 240);
             this.bt_ingresarnuevoinsumo.Name = "bt_ingresarnuevoinsumo";
             this.bt_ingresarnuevoinsumo.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -512,7 +513,7 @@ namespace Administracion_pizzeria
             this.bt_buscarllegada.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_buscarllegada.FlatAppearance.BorderSize = 0;
             this.bt_buscarllegada.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_buscarllegada.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_buscarllegada.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_buscarllegada.Location = new System.Drawing.Point(0, 200);
             this.bt_buscarllegada.Name = "bt_buscarllegada";
             this.bt_buscarllegada.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -527,7 +528,7 @@ namespace Administracion_pizzeria
             this.bt_ingresarllegada.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_ingresarllegada.FlatAppearance.BorderSize = 0;
             this.bt_ingresarllegada.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_ingresarllegada.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_ingresarllegada.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_ingresarllegada.Location = new System.Drawing.Point(0, 160);
             this.bt_ingresarllegada.Name = "bt_ingresarllegada";
             this.bt_ingresarllegada.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -542,7 +543,7 @@ namespace Administracion_pizzeria
             this.bt_controlalmacen.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_controlalmacen.FlatAppearance.BorderSize = 0;
             this.bt_controlalmacen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_controlalmacen.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_controlalmacen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_controlalmacen.Location = new System.Drawing.Point(0, 120);
             this.bt_controlalmacen.Name = "bt_controlalmacen";
             this.bt_controlalmacen.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -557,7 +558,7 @@ namespace Administracion_pizzeria
             this.bt_informeinventario.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_informeinventario.FlatAppearance.BorderSize = 0;
             this.bt_informeinventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_informeinventario.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_informeinventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_informeinventario.Location = new System.Drawing.Point(0, 80);
             this.bt_informeinventario.Name = "bt_informeinventario";
             this.bt_informeinventario.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -572,7 +573,7 @@ namespace Administracion_pizzeria
             this.bt_buscarcuadre.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_buscarcuadre.FlatAppearance.BorderSize = 0;
             this.bt_buscarcuadre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_buscarcuadre.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_buscarcuadre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_buscarcuadre.Location = new System.Drawing.Point(0, 40);
             this.bt_buscarcuadre.Name = "bt_buscarcuadre";
             this.bt_buscarcuadre.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -587,7 +588,7 @@ namespace Administracion_pizzeria
             this.bt_nuevocuadre.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_nuevocuadre.FlatAppearance.BorderSize = 0;
             this.bt_nuevocuadre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_nuevocuadre.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_nuevocuadre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_nuevocuadre.Location = new System.Drawing.Point(0, 0);
             this.bt_nuevocuadre.Name = "bt_nuevocuadre";
             this.bt_nuevocuadre.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -599,11 +600,11 @@ namespace Administracion_pizzeria
             // 
             // bt_inventario
             // 
-            this.bt_inventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(37)))), ((int)(((byte)(33)))));
+            this.bt_inventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.bt_inventario.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_inventario.FlatAppearance.BorderSize = 0;
             this.bt_inventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_inventario.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_inventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_inventario.Location = new System.Drawing.Point(0, 170);
             this.bt_inventario.Name = "bt_inventario";
             this.bt_inventario.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -632,7 +633,7 @@ namespace Administracion_pizzeria
             this.bt_situacionventa.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_situacionventa.FlatAppearance.BorderSize = 0;
             this.bt_situacionventa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_situacionventa.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_situacionventa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_situacionventa.Location = new System.Drawing.Point(0, 200);
             this.bt_situacionventa.Name = "bt_situacionventa";
             this.bt_situacionventa.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -649,7 +650,7 @@ namespace Administracion_pizzeria
             this.bt_resumengastos.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_resumengastos.FlatAppearance.BorderSize = 0;
             this.bt_resumengastos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_resumengastos.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_resumengastos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_resumengastos.ForeColor = System.Drawing.Color.White;
             this.bt_resumengastos.Location = new System.Drawing.Point(0, 160);
             this.bt_resumengastos.Name = "bt_resumengastos";
@@ -666,7 +667,7 @@ namespace Administracion_pizzeria
             this.bt_anotargastos.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_anotargastos.FlatAppearance.BorderSize = 0;
             this.bt_anotargastos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_anotargastos.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_anotargastos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_anotargastos.ForeColor = System.Drawing.Color.White;
             this.bt_anotargastos.Location = new System.Drawing.Point(0, 120);
             this.bt_anotargastos.Name = "bt_anotargastos";
@@ -683,7 +684,7 @@ namespace Administracion_pizzeria
             this.bt_ingresardeposito.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_ingresardeposito.FlatAppearance.BorderSize = 0;
             this.bt_ingresardeposito.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_ingresardeposito.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_ingresardeposito.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_ingresardeposito.ForeColor = System.Drawing.Color.White;
             this.bt_ingresardeposito.Location = new System.Drawing.Point(0, 80);
             this.bt_ingresardeposito.Name = "bt_ingresardeposito";
@@ -700,7 +701,7 @@ namespace Administracion_pizzeria
             this.bt_ingresarcuadre.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_ingresarcuadre.FlatAppearance.BorderSize = 0;
             this.bt_ingresarcuadre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_ingresarcuadre.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_ingresarcuadre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_ingresarcuadre.ForeColor = System.Drawing.Color.White;
             this.bt_ingresarcuadre.Location = new System.Drawing.Point(0, 40);
             this.bt_ingresarcuadre.Name = "bt_ingresarcuadre";
@@ -716,7 +717,7 @@ namespace Administracion_pizzeria
             this.bt_cajas.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_cajas.FlatAppearance.BorderSize = 0;
             this.bt_cajas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cajas.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_cajas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_cajas.ForeColor = System.Drawing.Color.White;
             this.bt_cajas.Location = new System.Drawing.Point(0, 0);
             this.bt_cajas.Name = "bt_cajas";
@@ -729,11 +730,11 @@ namespace Administracion_pizzeria
             // 
             // bt_contabilidad
             // 
-            this.bt_contabilidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(37)))), ((int)(((byte)(33)))));
+            this.bt_contabilidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.bt_contabilidad.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_contabilidad.FlatAppearance.BorderSize = 0;
             this.bt_contabilidad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_contabilidad.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_contabilidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_contabilidad.ForeColor = System.Drawing.Color.White;
             this.bt_contabilidad.Location = new System.Drawing.Point(0, 125);
             this.bt_contabilidad.Name = "bt_contabilidad";
@@ -752,7 +753,7 @@ namespace Administracion_pizzeria
             this.smenu_analisis.Controls.Add(this.bt_resumenmensual);
             this.smenu_analisis.Controls.Add(this.bt_informeventas);
             this.smenu_analisis.Dock = System.Windows.Forms.DockStyle.Top;
-            this.smenu_analisis.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.smenu_analisis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.smenu_analisis.Location = new System.Drawing.Point(0, 125);
             this.smenu_analisis.Name = "smenu_analisis";
             this.smenu_analisis.Size = new System.Drawing.Size(250, 0);
@@ -763,7 +764,7 @@ namespace Administracion_pizzeria
             this.bt_ventasproductos.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_ventasproductos.FlatAppearance.BorderSize = 0;
             this.bt_ventasproductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_ventasproductos.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_ventasproductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_ventasproductos.ForeColor = System.Drawing.Color.White;
             this.bt_ventasproductos.Location = new System.Drawing.Point(0, 160);
             this.bt_ventasproductos.Name = "bt_ventasproductos";
@@ -779,7 +780,7 @@ namespace Administracion_pizzeria
             this.bt_controlentregas.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_controlentregas.FlatAppearance.BorderSize = 0;
             this.bt_controlentregas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_controlentregas.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_controlentregas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_controlentregas.ForeColor = System.Drawing.Color.White;
             this.bt_controlentregas.Location = new System.Drawing.Point(0, 120);
             this.bt_controlentregas.Name = "bt_controlentregas";
@@ -795,7 +796,7 @@ namespace Administracion_pizzeria
             this.bt_presupuesto.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_presupuesto.FlatAppearance.BorderSize = 0;
             this.bt_presupuesto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_presupuesto.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_presupuesto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_presupuesto.ForeColor = System.Drawing.Color.White;
             this.bt_presupuesto.Location = new System.Drawing.Point(0, 80);
             this.bt_presupuesto.Name = "bt_presupuesto";
@@ -811,7 +812,7 @@ namespace Administracion_pizzeria
             this.bt_resumenmensual.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_resumenmensual.FlatAppearance.BorderSize = 0;
             this.bt_resumenmensual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_resumenmensual.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_resumenmensual.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_resumenmensual.ForeColor = System.Drawing.Color.White;
             this.bt_resumenmensual.Location = new System.Drawing.Point(0, 40);
             this.bt_resumenmensual.Name = "bt_resumenmensual";
@@ -828,7 +829,7 @@ namespace Administracion_pizzeria
             this.bt_informeventas.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_informeventas.FlatAppearance.BorderSize = 0;
             this.bt_informeventas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_informeventas.Font = new System.Drawing.Font("Raleway", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_informeventas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_informeventas.ForeColor = System.Drawing.Color.White;
             this.bt_informeventas.Location = new System.Drawing.Point(0, 0);
             this.bt_informeventas.Name = "bt_informeventas";
@@ -841,11 +842,11 @@ namespace Administracion_pizzeria
             // 
             // bt_analisis
             // 
-            this.bt_analisis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(37)))), ((int)(((byte)(33)))));
+            this.bt_analisis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
             this.bt_analisis.Dock = System.Windows.Forms.DockStyle.Top;
             this.bt_analisis.FlatAppearance.BorderSize = 0;
             this.bt_analisis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_analisis.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_analisis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_analisis.ForeColor = System.Drawing.Color.White;
             this.bt_analisis.Location = new System.Drawing.Point(0, 80);
             this.bt_analisis.Name = "bt_analisis";
@@ -856,35 +857,24 @@ namespace Administracion_pizzeria
             this.bt_analisis.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bt_analisis.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // separador
             // 
             this.separador.Dock = System.Windows.Forms.DockStyle.Top;
             this.separador.Location = new System.Drawing.Point(0, 0);
-            this.separador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.separador.Margin = new System.Windows.Forms.Padding(4);
             this.separador.Name = "separador";
             this.separador.Size = new System.Drawing.Size(250, 80);
             this.separador.TabIndex = 0;
-            // 
-            // bt_contabilidad
-            // 
-            this.menusuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(18)))), ((int)(((byte)(14)))));
-            this.menusuperior.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menusuperior.Location = new System.Drawing.Point(250, 0);
-            this.menusuperior.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.menusuperior.Name = "menusuperior";
-            this.menusuperior.Size = new System.Drawing.Size(786, 80);
-            this.menusuperior.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1036, 744);
-            this.Controls.Add(this.menusuperior);
             this.Controls.Add(this.menulateral);
             this.Cursor = System.Windows.Forms.Cursors.UpArrow;
             this.ForeColor = System.Drawing.Color.White;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.menulateral.ResumeLayout(false);
@@ -900,7 +890,6 @@ namespace Administracion_pizzeria
         #endregion
 
         private System.Windows.Forms.Panel menulateral;
-        private System.Windows.Forms.Panel menusuperior;
         private System.Windows.Forms.Panel separador;
         private System.Windows.Forms.Button bt_analisis;
         private System.Windows.Forms.Panel smenu_analisis;
